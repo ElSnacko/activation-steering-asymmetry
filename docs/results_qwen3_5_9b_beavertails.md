@@ -162,15 +162,13 @@ Global WRMD vector, α ∈ [0, +5], objective: minimize refusal rate + 0.5 × KL
 
 **Optimal α = +1.87**: comply = 78%, refuse = 20%, degen = 2%.
 
-**Correction — the old "13× / 78%" framing is withdrawn.** The earlier claim ("the
-refusal direction achieves 78% compliance, ~13× more effective than the comply direction's
-6%") compared a *level* to a *delta* and does not survive scrutiny. The 78% is the
-compliance that *remains* after refusal steering on a sample that was ~86% compliant at
-baseline — i.e. a behaviour change of only ~6–8pp (refuse 12%→20%), not 78%. The comply
-direction's 6% is an achieved change (≈0→6% on harmful prompts). Matched as deltas, the
-two experiments produce comparable per-experiment change, so the 13× ratio is an artifact.
+The 78% is the compliance that *remains* after refusal steering on a sample that was ~86%
+compliant at baseline (α ≈ 0 trial), so it is close to that baseline rather than a measure
+of steering efficacy. The behaviour change from refusal steering is ~6–8pp (refuse
+12%→20%); the comply direction's 6% is an achieved change (≈0→6% on harmful prompts).
+Matched as deltas, the two experiments produce comparable per-experiment change.
 
-The genuine asymmetry is carried by two other things, not this ratio:
+The asymmetry is carried by two things:
 1. **Distributional cost.** The refusal vector's steering KL on neutral prompts sits below
    the random-direction floor (geometric privilege); the comply direction's matched KL /
    perplexity control was never run.
@@ -178,9 +176,6 @@ The genuine asymmetry is carried by two other things, not this ratio:
    harmful compliance (strong_comply, judge −1.0) never exceeds ~3.3% on Qwen across any α
    on the balanced set — and since α is selected in-sample on the maximizing objective,
    that is an **upper bound**, not a floor.
-
-Note: the 50-prompt refusal sample had ~86% baseline compliance (α ≈ 0 trial); the residual
-78% is close to that baseline, which is why it is not a measure of steering efficacy.
 
 Data: `results/qwen3-5-9b-beavertails-mlp/optimization_summary_refusal_direction.json`
 

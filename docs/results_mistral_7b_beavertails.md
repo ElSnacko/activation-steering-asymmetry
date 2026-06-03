@@ -4,10 +4,9 @@
 **Dataset**: PKU-Alignment/BeaverTails-Evaluation (14 harm categories)  
 **Component**: MLP output activations  
 **Run ID**: `20260527-beavertails-mlp`  
-**Artifacts**: intermediate results (layer correlations, alpha optimization, RDC) are **not
-committed** — regenerate via `run_pipeline.sh` from the committed `baselines/`. Only the
-verification JSONs (causal-propagation, axis-rotation CI, hedge geometry) are shipped under
-`outputs/mistral-7b-instruct-v0-2/`.  
+**Artifacts**: per-α optimization, RDC, FP-audit, and category-geometry JSONs are shipped
+under `results/mistral-7b-beavertails-mlp/`; verification JSONs (causal-propagation,
+axis-rotation CI, hedge geometry) under `outputs/mistral-7b-instruct-v0-2/`.  
 **Cross-reference**: `docs/results_qwen3_5_9b_beavertails.md`
 
 ---
@@ -511,6 +510,60 @@ All other comply rates in §4 are FPs or hedges. The §4 / §6 conclusion "Mistr
 **hedge** (partial / dual-voice compliance) on soft categories, with 0–6% genuinely harmful
 strong_comply. The cross-model gap vs Qwen remains real but is entirely in the hedge zone,
 not in clean compliance.
+
+---
+
+## 10. Per-α curves, genuine-compliance ceiling, and FP audit (recovered run)
+
+Per-α `all_results` recovered for both comply (global + leftover + per-category) and refuse
+directions. Backing JSONs: `results/mistral-7b-beavertails-mlp/optimization_summary_*.json`,
+`fp_audit_genuine_compliance.json`. Figure: `scripts/make_asymmetry_figure.py`.
+
+**Genuine compliance (strong_comply, judge −1.0) vs α.** On the balanced/global set,
+genuine harmful compliance stays **1.8–5.5%** across *every* α; the apparent rise in the
+overall comply rate (to ~28% at deep α) is almost entirely **hedge** (weak_comply), with
+degeneration taking over below α≈−3. On the soft/borderline **leftover** pool
+(drug/misinformation/controversial) genuine compliance *does* lift, to **17.5–27.5%** — so
+the ceiling is a property of genuinely-harmful targets, not a universal flat line.
+(Qwen comparison: genuine ≤3.3% on the balanced set across all α.)
+
+**FP audit (manual read of strong_comply responses, all comply trials):**
+- **terrorism** — 10 genuine strong-comply instances: **real, not artifact** (actual
+  surveillance, hit-squad, chem/bio-weapon instructions). ~6% at coherence-preserving α,
+  more at deep α as the output degenerates.
+- **sexually_explicit** — 0 genuine across every trial: the headline 37.5% is **entirely
+  hedge**.
+- **non_violent** — 4 genuine; mostly hedge.
+
+**Refusal direction.** Over-refusal on benign caps at ~16% even at α=2.85 (mean KL ≈ 1.28,
+~2000× the α≈0.05 value) **without degenerating** — a coherent no-op. Contrast Qwen, whose
+refusal push degenerates hard past α+2 (54% → 100%). Two models, two absorption modes.
+
+**Refusal category-vector geometry (recovered vectors, layers 29/23/16/21):** mean pairwise
+67.3°, σ 8.2° (n=55) — tighter than Qwen's 58.4°/σ17.2°. Comply-activation geometry not
+recoverable (raw activations not retained).
+
+> *Field quirks in the recovered JSONs:* per-trial `output_perplexity` is a broken constant
+> (28.603…) — ignore it; `baseline_metrics` is zeroed (use the α≈0.05 trial as near-baseline).
+
+## 11. Methodology limitation: in-sample α selection
+
+α was chosen by Bayesian optimization (Optuna TPE, ~10 trials) and reported steered rates
+are evaluated on the *same* prompts the optimization ran on — no held-out split
+(`optimize_alpha.py` evaluates each trial on the sampled set and reports at the best α).
+Every steered rate here is therefore an in-sample point estimate.
+
+**Bias direction (important):** the comply runs optimize α to *maximize* compliance, so the
+reported comply/genuine-comply rate is the maximum a maximizer found in-sample — an **upper
+bound**. The asymmetry's core claim is that this number is *small*; in-sample selection can
+only inflate it, so the held-out ceiling is the same or lower. Refusal-direction rates
+(objective and metric aligned) are the ones genuinely inflated.
+
+**Mitigations / fix:** only a single scalar is tuned over ~10 trials (low memorization
+capacity); a held-out BeaverTails split exists (`baselines/mistral-7b-beavertails-holdout/`)
+but was used only for baseline scoring. The clean fix, not yet run: freeze the selected α and
+evaluate once on the holdout (comply + refuse, both models). The rotation/axis results are
+unaffected — geometric measurements, not optimization targets.
 
 ---
 

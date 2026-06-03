@@ -162,13 +162,25 @@ Global WRMD vector, α ∈ [0, +5], objective: minimize refusal rate + 0.5 × KL
 
 **Optimal α = +1.87**: comply = 78%, refuse = 20%, degen = 2%.
 
-The refusal direction achieves 78% compliance with mild alpha — approximately 13× more
-effective than the comply direction's best case (6%). This is the primary asymmetry
-result.
+**Correction — the old "13× / 78%" framing is withdrawn.** The earlier claim ("the
+refusal direction achieves 78% compliance, ~13× more effective than the comply direction's
+6%") compared a *level* to a *delta* and does not survive scrutiny. The 78% is the
+compliance that *remains* after refusal steering on a sample that was ~86% compliant at
+baseline — i.e. a behaviour change of only ~6–8pp (refuse 12%→20%), not 78%. The comply
+direction's 6% is an achieved change (≈0→6% on harmful prompts). Matched as deltas, the
+two experiments produce comparable per-experiment change, so the 13× ratio is an artifact.
 
-Note: the 50-prompt sample used for refusal optimization had ~86% baseline compliance
-(α ≈ 0 trial), confirming it was drawn from complied examples. The absolute numbers
-reflect the specific sample; the directional comparison (refusal >> comply) is robust.
+The genuine asymmetry is carried by two other things, not this ratio:
+1. **Distributional cost.** The refusal vector's steering KL on neutral prompts sits below
+   the random-direction floor (geometric privilege); the comply direction's matched KL /
+   perplexity control was never run.
+2. **A genuine-compliance ceiling.** With α tuned to maximize compliance, *genuine*
+   harmful compliance (strong_comply, judge −1.0) never exceeds ~3.3% on Qwen across any α
+   on the balanced set — and since α is selected in-sample on the maximizing objective,
+   that is an **upper bound**, not a floor.
+
+Note: the 50-prompt refusal sample had ~86% baseline compliance (α ≈ 0 trial); the residual
+78% is close to that baseline, which is why it is not a measure of steering efficacy.
 
 Data: `results/qwen3-5-9b-beavertails-mlp/optimization_summary_refusal_direction.json`
 

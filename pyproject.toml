@@ -1,0 +1,72 @@
+[build-system]
+requires = ["setuptools>=82.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "activation-steering"
+version = "0.1.0"
+description = "Activation steering for language models with WRMD-based steering vectors"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [
+    {name = "Activation Steering Contributors"}
+]
+keywords = [
+    "language-models",
+    "llm",
+    "activation-engineering",
+    "steering-vectors",
+    "refusal-mitigation",
+    "ai-safety"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+# Tested working combination (May 2026):
+#   torch 2.11.0, transformers 5.8.1, vllm 0.21.0, numpy 2.3.5
+dependencies = [
+    "torch>=2.11.0",           # tested: 2.11.0+cu130
+    "transformers>=5.8.1",     # tested: 5.8.1  (Qwen3.5 support requires >=5.3.0)
+    "numpy>=2.3.5",            # tested: 2.3.5
+    "scipy>=1.17.1",           # tested: 1.17.1
+    "matplotlib>=3.10.9",      # tested: 3.10.9
+    "tqdm>=4.67.3",            # tested: 4.67.3
+    "scikit-learn>=1.6.0",     # roc_auc_score in analysis.py
+]
+
+[project.optional-dependencies]
+bayesian = [
+    "optuna>=4.8.0",
+]
+dev = [
+    "pytest>=9.0.3",
+    "black>=26.3.1",
+    "isort>=8.0.1",
+    "mypy>=1.19.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/CompactifAI/activation-steering"
+Repository = "https://github.com/CompactifAI/activation-steering"
+Documentation = "https://github.com/CompactifAI/activation-steering/blob/main/README.md"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 100
+target-version = ['py311']
+
+[tool.isort]
+profile = "black"
+line_length = 100

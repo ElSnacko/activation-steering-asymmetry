@@ -1,0 +1,1102 @@
+[
+  {
+    "category": "college_mathematics",
+    "question": "The region bounded by the x-axis and the function f(x) = x/(1 + x^3) is rotated about the x-axis. What is the volume of the solid generated?",
+    "choices": [
+      "A) \u03c0/3",
+      "B) \u03c0/4",
+      "C) \u03c0",
+      "D) 2\u03c0"
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "college_mathematics",
+    "question": "Which of the following are valid intervals of convergence for a power series?\n(I) [\u22121, 3)\n(II) (\u2212\u221e, 0]\n(III) [2, 2] \u222a [3, 3]\n(IV) (\u2212\u221e,\u221e)",
+    "choices": [
+      "A) Only (II)",
+      "B) Only (IV )",
+      "C) (I) and (IV )",
+      "D) (II) and (III)"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "global_facts",
+    "question": "About how many people are infected by HIV/AIDS as of 2020?",
+    "choices": [
+      "A) 3 million",
+      "B) 14 million",
+      "C) 42 million",
+      "D) 124 million"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "elementary_mathematics",
+    "question": "What is the value of 5 + 2 \u2022 15 + (12 \u2022 4)?",
+    "choices": [
+      "A) 78",
+      "B) 83",
+      "C) 131",
+      "D) 153"
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "college_computer_science",
+    "question": "Local caching of files is common in distributed file systems, but it has the disadvantage that",
+    "choices": [
+      "A) Temporary inconsistencies among views of a file by different machines can result",
+      "B) The file system is likely to be corrupted when a computer crashes",
+      "C) A much higher amount of network traffic results",
+      "D) Caching makes file migration impossible"
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "elementary_mathematics",
+    "question": "There are three different sections to sit in at a baseball park. The number of people who can sit in each section is described below.\n* red section seats 200 people\n* blue section seats 20 fewer people than the red section\n* green section seats 2 times as many people as the blue section\nWhat is the total number of people who can sit in the baseball park?",
+    "choices": [
+      "A) 260",
+      "B) 380",
+      "C) 640",
+      "D) 740"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "electrical_engineering",
+    "question": "Under over voltage condition impedance offered by the voltage clamping device is",
+    "choices": [
+      "A) high.",
+      "B) low.",
+      "C) moderate.",
+      "D) infinity."
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "electrical_engineering",
+    "question": "In Digital Logic Designs, GAL is abbreviated as",
+    "choices": [
+      "A) General Advance Logic",
+      "B) General Array Logic",
+      "C) Generic Advance Logic",
+      "D) Generic Array Logic"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "electrical_engineering",
+    "question": "The concept of V/f control of inverters driving induction motors resuls in",
+    "choices": [
+      "A) constant torque operation",
+      "B) speed reversal",
+      "C) reduced magnetic loss",
+      "D) hormonic elimination"
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "professional_accounting",
+    "question": "Increasing the credit period from 30 to 60 days, in response to a similar action taken by all of our competitors, would likely result in:",
+    "choices": [
+      "A) an increase in the average collection period.",
+      "B) a decrease in bad debt losses.",
+      "C) an increase in sales.",
+      "D) higher profits."
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "anatomy",
+    "question": "Which of the following best describes the human body's defense mechanism against environmental bacteria?",
+    "choices": [
+      "A) Hair in the nose",
+      "B) Mucous membranes",
+      "C) Osteoblasts",
+      "D) Saliva"
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "professional_accounting",
+    "question": "Darv Co. had a current ratio of 3-to-1 and a quick ratio of 1-to-1. Current liabilities were $322000. What was the total amount for inventory and prepaid expenses?",
+    "choices": [
+      "A) $322,000",
+      "B) $644,000",
+      "C) $966,000",
+      "D) 1288000"
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "electrical_engineering",
+    "question": "In electrical resistance welding material of electrode should have",
+    "choices": [
+      "A) higher electrical conductivities.",
+      "B) higher thermal conductivities.",
+      "C) sufficient strength to sustain high pressure at elevated temperatures.",
+      "D) all of above."
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "college_chemistry",
+    "question": "What is the limiting high-temperature molar heat capacity at constant volume (C_V) of a gas-phase diatomic molecule?",
+    "choices": [
+      "A) 1.5R",
+      "B) 2R",
+      "C) 2.5R",
+      "D) 3.5R"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "college_computer_science",
+    "question": "Which of the following algorithms has running time \u0398(n^2) in the worst case but \u0398(n log n) on average?",
+    "choices": [
+      "A) Bubblesort",
+      "B) Mergesort",
+      "C) Heapsort",
+      "D) Quicksort"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "medical_genetics",
+    "question": "The proportion of genes shared by first cousins is on average ___.",
+    "choices": [
+      "A) 1.0/2",
+      "B) 1.0/4",
+      "C) 1.0/8",
+      "D) 1.0/16"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "anatomy",
+    "question": "If the foot is abducted, it is moved in which direction?",
+    "choices": [
+      "A) Inward",
+      "B) Outward",
+      "C) Upward",
+      "D) Downward"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "college_computer_science",
+    "question": "Which of the following comes closest to being a perfectly secure encryption scheme?",
+    "choices": [
+      "A) The Caesar Cipher, a substitution cipher",
+      "B) DES (Data Encryption Standard), a symmetric-key algorithm",
+      "C) Enigma, a transposition cipher",
+      "D) One-time pad"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "college_computer_science",
+    "question": "Two alternatives for interconnecting a set of processors with bidirectional links are (1) the fully interconnected network, in which each processor is directly connected to every other processor, and (2) the ring network, in which each processor is connected to two other processors. The worst-case path length for a network is the maximum, over all pairs of nodes in the network, of the minimum length paths (measured in number of links) between the nodes. For each type of interconnection of n processors, a figure of merit can be formed as the product of the number of links required for the network times the worst-case path length connecting any two processors. The ratio of this figure of merit for the fully interconnected network compared to that of the ring network, for even n > 2, is",
+    "choices": [
+      "A) 1/(n^2)",
+      "B) 1/(n(n-1))",
+      "C) 1/n",
+      "D) (n-1)/n"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "global_facts",
+    "question": "Ross Perot makes polling history by leading the presidential race briefly in June as a third-party candidate with 39%. He winds up with _% of the popular vote.",
+    "choices": [
+      "A) 1",
+      "B) 7",
+      "C) 13",
+      "D) 19"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "anatomy",
+    "question": "Gastrulation is the process of",
+    "choices": [
+      "A) mesoderm formation and occurs after neurulation.",
+      "B) ectomesenchyme formation and occurs before neurulation.",
+      "C) mesoderm formation and occurs before neurulation.",
+      "D) ectomesenchyme formation and occurs after neurulation."
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "professional_accounting",
+    "question": "Under state law Boca Co. may reimburse the state directly for actual unemployment claims or it may pay 3% of eligible gross wages. Boca believes that actual unemployment claims will be 2% of eligible gross wages and has chosen to reimburse the state. Eligible gross wages are defined as the first $15000 of gross wages paid to each employee. Boca had four employees each of whom earned $20000 during the year. What amount should Boca report as accrued liability for unemployment claims in its year-end balance sheet?",
+    "choices": [
+      "A) $1,200",
+      "B) $1,600",
+      "C) $1,800",
+      "D) 2400"
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "college_computer_science",
+    "question": "Which of the following statements about a remote procedure call is true?",
+    "choices": [
+      "A) It is used to call procedures with addresses that are farther than 2^16 bytes away.",
+      "B) It cannot return a value.",
+      "C) It cannot pass parameters by reference.",
+      "D) It cannot call procedures implemented in a different language."
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "college_mathematics",
+    "question": "Let (Z_{10} , +, x) be the ring of integers modulo 10, and let S be the subset of Z_{10} represented by {0, 2, 4, 6, 8}. Which of the following statements is FALSE?",
+    "choices": [
+      "A) (S, +, x) is closed under addition modulo 10.",
+      "B) (S, +, x) is closed under multiplication modulo 10.",
+      "C) (S, +, x) has an identity under addition modulo 10.",
+      "D) (S, +, x) has no identity under multiplication modulo 10."
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "medical_genetics",
+    "question": "The proportion of babies that have an abnormality identifiable at birth is _____.",
+    "choices": [
+      "A) 1 in 10",
+      "B) 1 in 40",
+      "C) 1 in 100",
+      "D) 1 in 500"
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "college_computer_science",
+    "question": "Let P be a procedure that for some inputs calls itself (i.e., is recursive). If P is guaranteed to terminate, which of the following statements must be true?\nI. P has a local variable.\nII. P has an execution path where it does not call itself.\nIII. P either refers to a global variable or has at least one parameter.",
+    "choices": [
+      "A) I only",
+      "B) II only",
+      "C) I and II only",
+      "D) II and III only"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "anatomy",
+    "question": "The palatine processes begin to fuse at",
+    "choices": [
+      "A) six weeks post-fertilization.",
+      "B) eight weeks post-fertilization.",
+      "C) ten weeks post-fertilization.",
+      "D) twelve weeks post-fertilization."
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "college_chemistry",
+    "question": "Calculate the spin angular momentum of 43Ca. [I = 7\u20442]",
+    "choices": [
+      "A) 2.166 x 10^-34 J s",
+      "B) 3.691 x 10^-34 J s",
+      "C) 4.185 x 10^-34 J s",
+      "D) 5.493 x 10^-34 J s"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "professional_accounting",
+    "question": "If a CPA recklessly departs from the standards of due care when conducting an audit the CPA will be liable to third parties who are unknown to the CPA under the law of",
+    "choices": [
+      "A) Strict liability.",
+      "B) Breach of contract.",
+      "C) Negligence.",
+      "D) Gross negligence."
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "electrical_engineering",
+    "question": "Instantaneous power in inductor is proportional to the",
+    "choices": [
+      "A) product of the instantaneous current and rate of change of current.",
+      "B) square of instantaneous current.",
+      "C) square of the rate of change of current.",
+      "D) temperature of the inductor."
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "college_mathematics",
+    "question": "A tree is a connected graph with no cycles. How many nonisomorphic trees with 5 vertices exist?",
+    "choices": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "college_chemistry",
+    "question": "For EDTA titrations, the analyte solution and the titrant solution are both buffered at the same pH for which of the following reasons?\nI. The conditional formation constant is affected by pH.\nII. The fraction of EDTA in the fully deprotonated Y4\u2212 form varies with pH.\nIII. When EDTA reacts to form a metal complex, H+ is a product in most cases.",
+    "choices": [
+      "A) I only",
+      "B) I and II only",
+      "C) I and III only",
+      "D) I, II, and III"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "medical_genetics",
+    "question": "The DiGeorge/Shprintzen syndrome is caused by a deletion in which chromosome?",
+    "choices": [
+      "A) 4",
+      "B) 7",
+      "C) 15",
+      "D) 22"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "global_facts",
+    "question": "Which of the following countries invested the largest fraction of its GDP in renewable energy in 2015?",
+    "choices": [
+      "A) China",
+      "B) Japan",
+      "C) Chile",
+      "D) India"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "anatomy",
+    "question": "During swallowing the",
+    "choices": [
+      "A) auditory tube opens.",
+      "B) cricopharyngeus muscle contracts.",
+      "C) rima glottis opens.",
+      "D) gag reflex is suspended."
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "global_facts",
+    "question": "As of 2013, which of the following countries had the highest per capita rate of homelessness?",
+    "choices": [
+      "A) US",
+      "B) Chile",
+      "C) Ireland",
+      "D) Spain"
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "sociology",
+    "question": "Equilibrium theories of social change emphasize",
+    "choices": [
+      "A) globalization",
+      "B) stability and the structure of society",
+      "C) secularism and mechanization",
+      "D) industrialization"
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "medical_genetics",
+    "question": "The presence of two or more cell lines from different zygotes in a single individual is known as:",
+    "choices": [
+      "A) mosaicism.",
+      "B) diploidy.",
+      "C) aneuploidy.",
+      "D) chimaerism."
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "elementary_mathematics",
+    "question": "Connor is measuring the capacity of a jar. Which unit of measure can he use?",
+    "choices": [
+      "A) Centimeter",
+      "B) Cup",
+      "C) Gram",
+      "D) Pound"
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "global_facts",
+    "question": "As of 2019, about what percentage of South Koreans say it is necessary to believe in God in order to be moral and have good values?",
+    "choices": [
+      "A) 25%",
+      "B) 45%",
+      "C) 65%",
+      "D) 85%"
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "sociology",
+    "question": "According to W. E. B. Dubois, progress for African Americans in the aftermath of slavery",
+    "choices": [
+      "A) depended on the small group of African Americans receiving the same thorough and extensive education as the most talented White Americans were able to access",
+      "B) involved their use of skills they already had from farming, domestic work, and labors of rural life rather than being forced to learn new skills in the late 1800s",
+      "C) required that they be trained and prepared as craftspeople and service employees so they could become immediately self-sufficient",
+      "D) required them to move to large cities where they would be accepted as equals in government, religion, and education"
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "medical_genetics",
+    "question": "The most common chromosome abnormality in first trimester spontaneous miscarriages is:",
+    "choices": [
+      "A) trisomy.",
+      "B) monosomy.",
+      "C) triploidy.",
+      "D) tetrasomy."
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "global_facts",
+    "question": "As of 2017, the share of GDP spent on the military by Saudi Arabia is about",
+    "choices": [
+      "A) 1%",
+      "B) 3%",
+      "C) 6%",
+      "D) 10%"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "college_computer_science",
+    "question": "Consider the following equations concerning a stack module that has the operations Push, Pop, Top, and IsEmpty. Which of the equations does NOT represent the conventional semantics of a stack?",
+    "choices": [
+      "A) IsEmpty(Push(Stack,Elem)) = true",
+      "B) Pop(Push(Stack,Elem)) = Stack",
+      "C) Top(Push(Stack,Elem)) = Elem",
+      "D) IsEmpty(Push(Push(Stack,Elem1),Elem2)) = false"
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "anatomy",
+    "question": "Which of the following bony structures may be palpated in a live patient?",
+    "choices": [
+      "A) The supraorbital foramen",
+      "B) The infraorbital foramen",
+      "C) The mental foramen",
+      "D) All of the above"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "college_chemistry",
+    "question": "The 99Ru chemical shift of [Ru(H2O)6]2+ is 16,050 ppm relative to [Ru(CN)6]2- at 0 ppm. The electronic excitation energies of [Ru(H2O)6]2+, [Ru(CN)6]2- and [Ru(NH3)6]2+ are 18,900, 40,000 and 25,600 cm-1 respectively. Assuming that the chemical shift differences are dominated by paramagnetic currents, determine the chemical shift of [Ru(NH3)6]2+.",
+    "choices": [
+      "A) 7,530 ppm",
+      "B) 8,090 ppm",
+      "C) 11,070 ppm",
+      "D) 14,840 ppm"
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "college_mathematics",
+    "question": "The curves y = (sin x + cos x)^4 and y = (sin x - cos x)^4 intersect at x = 0. If a is the smallest positive value of x at which these curves next intersect, determine the area between these curves from x = 0 to x = a.",
+    "choices": [
+      "A) 2",
+      "B) \u03c0",
+      "C) 4",
+      "D) 3\u03c0/2"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "elementary_mathematics",
+    "question": "Tisha wrote the following riddle to her friend: I have 2 faces, no vertices, and I can roll. What am I? What is the answer to the riddle?",
+    "choices": [
+      "A) cone",
+      "B) cylinder",
+      "C) sphere",
+      "D) prism"
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "elementary_mathematics",
+    "question": "What is the value of 4x + 9, when x = 4?",
+    "choices": [
+      "A) 13",
+      "B) 17",
+      "C) 25",
+      "D) 52"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "professional_accounting",
+    "question": "Within the COSO Internal Control\u2014Integrated Framework, which of the following components is designed to ensure that internal controls continue to operate effectively?",
+    "choices": [
+      "A) Control environment.",
+      "B) Risk assessment.",
+      "C) Information and communication.",
+      "D) Monitoring."
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "electrical_engineering",
+    "question": "Advantages of open loop control system is/are",
+    "choices": [
+      "A) simple and economical.",
+      "B) accurate.",
+      "C) reliable.",
+      "D) all of the above."
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "professional_accounting",
+    "question": "The purpose of establishing quality control policies and procedures for deciding whether to accept or continue a client relationship is to",
+    "choices": [
+      "A) Provide reasonable assurance that personnel are adequately trained to fulfill their responsibilities.",
+      "B) Minimize the likelihood of associating with clients whose management lacks integrity.",
+      "C) Document the matters that are required to be communicated to the audit committee.",
+      "D) Enhance the auditor's understanding of the client's business and its industry."
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "professional_accounting",
+    "question": "During year 2 Pipp Co. incurred the following costs to develop and produce a routine low-risk computer software product: Completion of detailed program design $10000 Costs incurred for coding and testing to establish technological feasibility $15000 Other coding and testing costs incurred after establishment of technological feasibility $44000 In Pipp's December 31 year 2 balance sheet what amount should be capitalized as software cost?",
+    "choices": [
+      "A) $10,000",
+      "B) $25,000",
+      "C) $44,000",
+      "D) 59000"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "professional_accounting",
+    "question": "Which of the following statements regarding an individual\u2019s suspended passive activity losses is correct?",
+    "choices": [
+      "A) $3,000 of suspended losses can be utilized each year against portfolio income.",
+      "B) Suspended losses can be carried forward, but not back, until utilized.",
+      "C) Suspended losses must be carried back three years and forward seven years.",
+      "D) A maximum of 50% of the suspended losses can be used each year when an election is made to forgo the carryback period."
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "sociology",
+    "question": "Which of the following is not identified as a new form of community?",
+    "choices": [
+      "A) ethnic communities, based on shared identity and experiences of discrimination",
+      "B) gay villages, which are formed in certain parts of large cities",
+      "C) sociological communities, formed by unpopular lecturers",
+      "D) virtual communities that exist only in cyberspace"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "sociology",
+    "question": "Scott (1991) introduced the term 'power elite' to describe:",
+    "choices": [
+      "A) the ruling class, or bourgeoisie, who exploit the proletariat",
+      "B) a capitalist class dependent on property ownership and advantaged life chances",
+      "C) an alignment of classes with shared interests but no state power",
+      "D) a state elite whose members are drawn overwhelmingly from a power bloc"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "college_chemistry",
+    "question": "What is the magnetic moment of 205Tl?",
+    "choices": [
+      "A) [\u0263 (205TI = 1.569 x 108 T-1 s-1, I = \u00bd]",
+      "B) 0.717 x 10^-26 J T-1",
+      "C) 0.827 x 10^-26 J T-1",
+      "D) 1.433 x 10^-26 J T-1"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "medical_genetics",
+    "question": "Twin studies in humans are useful because",
+    "choices": [
+      "A) they allow genetic as opposed to environmental influences on variation in a trait to be estimated",
+      "B) cloning of genes is facilitated by the presence of extra copies",
+      "C) they allow improved expression of genes",
+      "D) twins have a greater likelihood of being heterozygous"
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "elementary_mathematics",
+    "question": "Write the prime factorization of 48. Use exponents where possible.",
+    "choices": [
+      "A) 4 \u2022 8",
+      "B) 6 \u2022 8",
+      "C) 2^3 \u2022 3^2",
+      "D) 2^4 \u2022 3"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "professional_accounting",
+    "question": "When there has been a change in accounting principles, but the effect of the change on the comparability of the financial statements is not material, the auditor should",
+    "choices": [
+      "A) Not refer to the change in the auditor\u2019s report.",
+      "B) Refer to the note in the financial statements that discusses the change.",
+      "C) Refer to the change in an emphasis-of-matter paragraph.",
+      "D) Explicitly state whether the change conforms with GAAP."
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "anatomy",
+    "question": "The regional lymphatic drainage of the left side of the tip of the tongue is to the",
+    "choices": [
+      "A) left submental lymph node.",
+      "B) left and right submental lymph nodes.",
+      "C) left submandibular lymph node.",
+      "D) left and right submandibular lymph nodes."
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "college_computer_science",
+    "question": "If p(x) is the minimal-degree interpolating polynomial for the real-valued function f(x) at the n + 1 distinct real numbers x0, .... xn what is the maximum possible degree of p(x)?",
+    "choices": [
+      "A) n",
+      "B) n + 1",
+      "C) n + 2",
+      "D) 2n"
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "college_chemistry",
+    "question": "Which of the following is always true of a spontaneous process?",
+    "choices": [
+      "A) The process is exothermic.",
+      "B) The process does not involve any work.",
+      "C) The entropy of the system increases.",
+      "D) The total entropy of the system plus surroundings increases."
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "elementary_mathematics",
+    "question": "If x \u2212 3 = 6, what is the value of x?",
+    "choices": [
+      "A) 2",
+      "B) 3",
+      "C) 6",
+      "D) 9"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "college_mathematics",
+    "question": "The probability that a point (x, y) in R^2 is chosen follows a uniform random distribution within the region described by the inequality 0 < |x| + |y| < 1 . What is the probability that 2(x + y) > 1?",
+    "choices": [
+      "A) 0",
+      "B) 1/4",
+      "C) sqrt(2)/4",
+      "D) 1/sqrt(2)"
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "sociology",
+    "question": "'Eyeballing' is a technique that involves:",
+    "choices": [
+      "A) reading a textual document quickly to understand the gist of it",
+      "B) gathering a sample from whoever you can see in a public place",
+      "C) scanning a table to identify general patterns and significant figures",
+      "D) keeping your eyes on research participants at all times"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "electrical_engineering",
+    "question": "The feedback factor of a Wien bridge oscillator using Op-Amp is",
+    "choices": [
+      "A) 1/3",
+      "B) 1/4",
+      "C) 1/2",
+      "D) 1"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "college_mathematics",
+    "question": "Let I != A != -I, where I is the identity matrix and A is a real 2 x 2 matrix. If A = A^(-1), then the trace of A is",
+    "choices": [
+      "A) 2",
+      "B) 1",
+      "C) 0",
+      "D) -1"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "professional_accounting",
+    "question": "Simmons gives her child a gift of publicly traded stock with a basis of $40,000 and a fair market value of $30,000. No gift tax is paid. The child subsequently sells the stock for $36,000. What is the child\u2019s recognized gain or loss, if any?",
+    "choices": [
+      "A) $4,000 loss.",
+      "B) No gain or loss.",
+      "C) $6,000 gain.",
+      "D) $36,000 gain."
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "anatomy",
+    "question": "The thoracic cage is a structural unit important for which of the following functions?",
+    "choices": [
+      "A) Alimentation",
+      "B) Menstruation",
+      "C) Mentation",
+      "D) Respiration"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "medical_genetics",
+    "question": "Which of the following conditions is a peroxisomal disorder?",
+    "choices": [
+      "A) Acute intermittent porphyria",
+      "B) Maple syrup urine disease",
+      "C) Medium chain acyl-CoA dehydrogenase deficiency",
+      "D) Zellweger syndrome"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "college_mathematics",
+    "question": "Statement 1 | f : X \u2192 Y is continuous and X is compact. f must be uniformly continuous. Statement 2 | If f(x), g(x) : R \u2192 R are everywhere differentiable f(g(x)) must be everywhere differentiable.",
+    "choices": [
+      "A) True, True",
+      "B) True, False",
+      "C) False, True",
+      "D) False, False"
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "global_facts",
+    "question": "As of 2015, agriculture made up about what percentage of total US GDP?",
+    "choices": [
+      "A) 1%",
+      "B) 3%",
+      "C) 9%",
+      "D) 20%"
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "elementary_mathematics",
+    "question": "Write 4 and 4 over 5 as an improper fraction.",
+    "choices": [
+      "A) 28 over 5",
+      "B) 4 over 5",
+      "C) 24 over 5",
+      "D) 20 over 5"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "electrical_engineering",
+    "question": "What is the name of the fluorescent material that gives red colour fluorescence?",
+    "choices": [
+      "A) Zinc silicate.",
+      "B) Calcium silicate.",
+      "C) Zinc sulphide.",
+      "D) Magnesium silicate."
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "electrical_engineering",
+    "question": "Which system is also known as automatic control system?",
+    "choices": [
+      "A) Open loop control system",
+      "B) Closed loop control system",
+      "C) Either A or B",
+      "D) Nether A nor B"
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "anatomy",
+    "question": "Which of the following anatomical regions of abdomen lies just distal to the sternum?",
+    "choices": [
+      "A) Epigastric",
+      "B) Hypochondriac",
+      "C) Hypogastric",
+      "D) Lumbar"
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "medical_genetics",
+    "question": "In humans, each cell normally contains ______ of chromosomes.",
+    "choices": [
+      "A) 11 pairs",
+      "B) 23 pairs",
+      "C) 32 pairs",
+      "D) 46 pairs"
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "sociology",
+    "question": "Which of the following is a personal document with closed access?",
+    "choices": [
+      "A) government 'white paper'",
+      "B) confidential medical records",
+      "C) household account book",
+      "D) the shares register of a business"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "college_computer_science",
+    "question": "In a pipelined RISC computer where all arithmetic instructions have the same CPI (cycles per instruction), which of the following actions would improve the execution time of a typical program?\nI. Increasing the clock cycle rate\nII. Disallowing any forwarding in the pipeline\nIII. Doubling the sizes of the instruction cache and the data cache without changing the clock cycle time",
+    "choices": [
+      "A) I only",
+      "B) II only",
+      "C) III only",
+      "D) I and III"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "college_chemistry",
+    "question": "The rate, r, of a zero-order chemical reaction A \u2192 B can be expressed as which of the following?",
+    "choices": [
+      "A) r = k ln[A]",
+      "B) r = k [A]^2",
+      "C) r = k [A]",
+      "D) r = k"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "college_chemistry",
+    "question": "Elements with partially filled 4f or 5f orbitals include all of the following EXCEPT",
+    "choices": [
+      "A) Cu",
+      "B) Gd",
+      "C) Eu",
+      "D) Am"
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "anatomy",
+    "question": "Which of the following muscles initiates elevation of the mandible?",
+    "choices": [
+      "A) Masseter",
+      "B) Temporalis",
+      "C) Lateral pterygoid",
+      "D) Medial pterygoid."
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "college_chemistry",
+    "question": "The molecular geometry of thionyl chloride, SOCl2, is best described as",
+    "choices": [
+      "A) trigonal planar",
+      "B) T-shaped",
+      "C) tetrahedral",
+      "D) trigonal pyramidal"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "global_facts",
+    "question": "At its peak, what was the approximate difference in approval of school desegration from the South and the rest of the U.S.?",
+    "choices": [
+      "A) 80%",
+      "B) 40%",
+      "C) -40%",
+      "D) -80%"
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "global_facts",
+    "question": "In 1943 how many Americans believed in the Holocaust?",
+    "choices": [
+      "A) 30%",
+      "B) 50%",
+      "C) 70%",
+      "D) 90%"
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "sociology",
+    "question": "Marx proclaimed that religion would disappear when:",
+    "choices": [
+      "A) a new trend of moral individualism became established",
+      "B) a socialist revolution removed the need for capitalist ideology",
+      "C) church attendance dropped below 15%",
+      "D) people came to believe more in science and technology"
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "college_computer_science",
+    "question": "TCP protocol is responsible (among other things) for",
+    "choices": [
+      "A) Routing packets through the network",
+      "B) Reliable delivery of packets between directly connected machines",
+      "C) Reliable delivery of large (multi-packet) messages between machines that are not necessarily directly connected",
+      "D) Dealing with differences among operating system architectures"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "electrical_engineering",
+    "question": "An SCR has half cycle surge current rating of 3000 A for 50 Hz supply. One cycle surge current will be",
+    "choices": [
+      "A) 1500 A.",
+      "B) 6000 A.",
+      "C) 2121.32 A.",
+      "D) 4242.64 A."
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "elementary_mathematics",
+    "question": "The Sojourn family went on a vacation. They started with $2000. If they spent $150 each day, which expression represents how much money they had after x days?",
+    "choices": [
+      "A) 1850x",
+      "B) 2000 \u2212150x",
+      "C) 150x",
+      "D) 2000 +150x"
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "sociology",
+    "question": "Sreberny-Mohammadi (1996) argues that national cultures can resist American cultural domination of the media by:",
+    "choices": [
+      "A) domesticating its content, including more 'home-produced' programmes",
+      "B) controlling the distribution of imported products by banning satellite dishes",
+      "C) creating 'reverse flows' of their own programmes back to imperial societies",
+      "D) all of the above"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "elementary_mathematics",
+    "question": "Members of the Hiking Club hiked for 2.4 hours covering 2.5 miles each hour. How far did the members hike",
+    "choices": [
+      "A) 4.9 miles",
+      "B) 5.8 miles",
+      "C) 6.0 miles",
+      "D) 6.3 miles"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "medical_genetics",
+    "question": "Assuming Hardy-Weinberg equilibrium, the genoypte frequency of heterozygotes, if the frequency of the two alleles at the gene being studied are 0.6 and 0.4, will be:",
+    "choices": [
+      "A) 0.8",
+      "B) 0.64",
+      "C) 0.48",
+      "D) 0.32"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "sociology",
+    "question": "Margaret Mead suggested that:",
+    "choices": [
+      "A) adolescence and gender roles varied between societies and so were culturally determined",
+      "B) gender roles in three New Guinea societies were identical and so must be biologically determined",
+      "C) adolescence in the USA is a time of relative calm compared to the experience in Japan and Europe",
+      "D) anthropological fieldwork can be problematic because the researcher's values affect the way they interpret their observations"
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "global_facts",
+    "question": "As of 2017, what fraction of the population in India used the internet in the past three months?",
+    "choices": [
+      "A) 11%",
+      "B) 26%",
+      "C) 41%",
+      "D) 56%"
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "medical_genetics",
+    "question": "X-chromosome inactivation",
+    "choices": [
+      "A) results in genetically turning off one of the two X chromosomes in female mammals",
+      "B) takes place in humans so that the same X chromosome is inactive in all of the cells of a female",
+      "C) is the cause of the Y chromosome being genetically inactive",
+      "D) occurs in fruit flies but not in mammals"
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "sociology",
+    "question": "The introduction of market principles to educational policy in the 1980s resulted in:",
+    "choices": [
+      "A) more funding for students in higher education",
+      "B) the delegation of power and budgetary control to LEAs",
+      "C) a reduction in parental choice of school",
+      "D) increased state regulation through national testing and inspections"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "college_mathematics",
+    "question": "Let V and W be 4-dimensional subspaces of a 7-dimensional vector space X. Which of the following CANNOT be the dimension of the subspace V intersect W?",
+    "choices": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3"
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "college_chemistry",
+    "question": "The rotational correlation time of a spherical object of radius r immersed in a liquid with viscosity \u03b7 is given by the Stokes equation: \u03c4c = 4\u03c0\u03b7r3/3kBT. A small molecule with relative molecular mass Mr = 100 in water at 298 K has \u03c4c = 50 ps. Assuming that Mr is proportional to the molecular volume, estimate \u03c4c for a small protein with Mr = 8400.",
+    "choices": [
+      "A) 420 ns",
+      "B) 42 ns",
+      "C) 4.2 ns",
+      "D) 420 ps"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "college_mathematics",
+    "question": "What is the units digit in the standard decimal expansion of the number 7^25?",
+    "choices": [
+      "A) 1",
+      "B) 3",
+      "C) 5",
+      "D) 7"
+    ],
+    "answer": "D"
+  }
+]

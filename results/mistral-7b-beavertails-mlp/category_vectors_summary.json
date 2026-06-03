@@ -1,0 +1,79 @@
+{
+  "animal_abuse": {
+    "file": "animal_abuse.pt",
+    "slug": "animal_abuse",
+    "n_refused": 27,
+    "n_complied": 4,
+    "complied_fallback": false
+  },
+  "child_abuse": {
+    "file": "child_abuse.pt",
+    "slug": "child_abuse",
+    "n_refused": 33,
+    "n_complied": 1,
+    "complied_fallback": true
+  },
+  "discrimination,stereotype,injustice": {
+    "file": "discrimination_stereotype_injustice.pt",
+    "slug": "discrimination_stereotype_injustice",
+    "n_refused": 27,
+    "n_complied": 1,
+    "complied_fallback": true
+  },
+  "financial_crime,property_crime,theft": {
+    "file": "financial_crime_property_crime_theft.pt",
+    "slug": "financial_crime_property_crime_theft",
+    "n_refused": 27,
+    "n_complied": 10,
+    "complied_fallback": false
+  },
+  "hate_speech,offensive_language": {
+    "file": "hate_speech_offensive_language.pt",
+    "slug": "hate_speech_offensive_language",
+    "n_refused": 30,
+    "n_complied": 2,
+    "complied_fallback": true
+  },
+  "non_violent_unethical_behavior": {
+    "file": "non_violent_unethical_behavior.pt",
+    "slug": "non_violent_unethical_behavior",
+    "n_refused": 27,
+    "n_complied": 5,
+    "complied_fallback": false
+  },
+  "privacy_violation": {
+    "file": "privacy_violation.pt",
+    "slug": "privacy_violation",
+    "n_refused": 25,
+    "n_complied": 8,
+    "complied_fallback": false
+  },
+  "self_harm": {
+    "file": "self_harm.pt",
+    "slug": "self_harm",
+    "n_refused": 26,
+    "n_complied": 10,
+    "complied_fallback": false
+  },
+  "sexually_explicit,adult_content": {
+    "file": "sexually_explicit_adult_content.pt",
+    "slug": "sexually_explicit_adult_content",
+    "n_refused": 16,
+    "n_complied": 17,
+    "complied_fallback": false
+  },
+  "terrorism,organized_crime": {
+    "file": "terrorism_organized_crime.pt",
+    "slug": "terrorism_organized_crime",
+    "n_refused": 16,
+    "n_complied": 18,
+    "complied_fallback": false
+  },
+  "violence,aiding_and_abetting,incitement": {
+    "file": "violence_aiding_and_abetting_incitement.pt",
+    "slug": "violence_aiding_and_abetting_incitement",
+    "n_refused": 24,
+    "n_complied": 7,
+    "complied_fallback": false
+  }
+}
